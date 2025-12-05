@@ -9,6 +9,11 @@ const posts = [
     url: "https://www.nogizaka46.com/s/n46/diary/detail/103579"
   },
   {
+    title: "ある冬に考えていたこと",
+    date: "2025-12-05",
+    url: "https://www.nogizaka46.com/s/n46/diary/detail/104162?ima=1519"
+  },
+  {
     title: "終わってから分かっても遅いのにな",
     date: "2025-09-20",
     url: "https://www.nogizaka46.com/s/n46/diary/detail/103842"
@@ -229,3 +234,4 @@ posts.forEach(post => {
   listEl.appendChild(item);
 });
 renderPage(1);
+
