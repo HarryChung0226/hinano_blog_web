@@ -147,6 +147,11 @@ const posts = [
     title: "ふと思い返すもの",
     date: "2025-12-01",
     url: "https://www.nogizaka46.com/s/n46/diary/detail/104141"
+  },
+  {
+    title: "電飾が消えたあとに残るもの",
+    date: "2025-12-25",
+    url: "https://www.nogizaka46.com/s/n46/diary/detail/104212"
   }
 ];
 
@@ -234,4 +239,5 @@ posts.forEach(post => {
   listEl.appendChild(item);
 });
 renderPage(1);
+
 
