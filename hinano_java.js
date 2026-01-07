@@ -4,6 +4,16 @@ let sortOrder = "desc"; // default: newest first
 // Manual list of Hinano blog posts
 const posts = [
   {
+    title: "大晦日",
+    date: "2025-12-31",
+    url: "https://www.nogizaka46.com/s/n46/diary/detail/104243"
+  },
+  {
+    title: "ここちよさ",
+    date: "2026-01-03",
+    url: "https://www.nogizaka46.com/s/n46/diary/detail/104259"
+  },
+  {
     title: "意図せず",
     date: "2025-07-02",
     url: "https://www.nogizaka46.com/s/n46/diary/detail/103579"
@@ -239,5 +249,6 @@ posts.forEach(post => {
   listEl.appendChild(item);
 });
 renderPage(1);
+
 
 
